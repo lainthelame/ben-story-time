@@ -1,0 +1,194 @@
+/* General Styles */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f6f8fa;
+}
+
+h1, h2 {
+    color: #24292e;
+    margin: 20px 0;
+    font-weight: 600;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #24292e;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* Main Container */
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+}
+
+/* Blog Post List */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    border-bottom: 1px solid #e1e4e8;
+    padding: 10px 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #0366d6;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"], textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 5px solid #e1e4e8;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input[type="file"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+input[type="password"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 5px solid #e1e4e8;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    padding: 8px 12px;
+    background-color: #0366d6;
+    color: #f9f3f3;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #0353b6;
+}
+
+/* Small Button for Navigation */
+a.button-link {
+    text-decoration: none;
+    color: white;
+    background-color: #0366d6;
+    padding: 8px 12px; /* Smaller padding */
+    border-radius: 4px; /* Slightly smaller radius */
+    font-size: 12px;    /* Smaller text */
+    margin-top: 10px;
+    text-align: center;
+    display: inline-block;
+}
+
+a.button-link:hover {
+    background-color: #0353b6;
+}
+
+/* Aligning Buttons */
+.button-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+/* Trash Button Styling */
+.trash-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #d73a49;
+    font-size: 18px;
+    padding: 8px 12px;
+    margin-top: 10px;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+.trash-button:hover {
+    background-color: #f6f8fa;
+    color: #cb2431;
+}
+
+.delete-form {
+    margin: 0;
+}
+
+/* Image Styles */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+/* New Post Icon */
+.new-post-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: #2ea44f;
+    color: white;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+.new-post-icon:hover {
+    background-color: #22863a;
+}
+
+.new-post-icon i {
+    font-size: 24px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #586069;
+}
